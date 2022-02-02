@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    
+    <head>
+        <meta charset="utf-8">
+        <title>Jogo da Forca</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
+
+    </head>
+
+    <body>
+        <h1>Desafio da Forca</h1>
+        <div>
+            <img src="vetor2.png" alt="forca">
+            <img id="part0" src="hangman0.png" alt="cabeça">
+            <img id="part1" src="hangman1.png" alt="tronco">
+            <img id="part2" src="hangman2.png" alt="braco1">
+            <img id="part3" src="hangman3.png" alt="braco2">
+            <img id="part4" src="hangman4.png" alt="perna1">
+            <img id="part5" src="hangman5.png" alt="perna2"> 
+        </div>
+        
+
+        <div id="dv_btns">
+        
+            <label>Tente uma letra:</label><br>
+            <input id="caracter" type="text" name="palpite" maxlength="1" method="get" value=""><br>
+            <input type="submit" class="button" value="Validar" onclick=getAllIndexes() ><br><br>  
+
+        </div>
+
+        <div id="containerLetras">
+            <div id="caixaLetra0" class="letras"></div>
+            <div id="caixaLetra1" class="letras"></div>
+            <div id="caixaLetra2" class="letras"></div>
+            <div id="caixaLetra3" class="letras"></div>
+            <div id="caixaLetra4" class="letras"></div>
+            <div id="caixaLetra5" class="letras"></div>
+            <div id="caixaLetra6" class="letras"></div>
+            <div id="caixaLetra7" class="letras"></div>
+            <div id="caixaLetra8" class="letras"></div>
+            <div id="caixaLetra9" class="letras"></div>
+        </div>
+
+        <div id="containerErros">
+            <div id="caixaErros0" class="erros"></div>
+            <div id="caixaErros1" class="erros"></div>
+            <div id="caixaErros2" class="erros"></div>
+            <div id="caixaErros3" class="erros"></div>
+            <div id="caixaErros4" class="erros"></div>
+            <div id="caixaErros5" class="erros"></div>
+            <div id="caixaErros6" class="erros"></div>
+            <div id="caixaErros7" class="erros"></div>
+            <div id="caixaErros8" class="erros"></div>
+            <div id="caixaErros9" class="erros"></div>
+        </div>
+
+        <p id=teste></p>
+        
+    </body>
+
+</html>

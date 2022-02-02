@@ -1,0 +1,164 @@
+
+body{
+    background-color: #F2CA52;
+}
+
+@font-face {
+    font-family: "riogrande";
+    src: url(RioGrande.ttf);
+    font-weight: normal;    
+    font-style: normal
+}
+
+h1 {
+    font-size: 3em;
+    font-family: "riogrande";
+    color: #000;
+    position: absolute;
+    left: 33%;
+}
+
+#containerLetras {
+    border: none;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:68%;
+    left:27%;
+    background-color: #D99036;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.letras {
+    border:1px solid #000;
+    width:31px;
+    height: 35px;
+    margin:5px;
+    background-color: #c5b5a1;
+    display:none;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    justify-content: center;
+    text-align: center;
+}
+
+#containerErros {
+    border: none;
+    width: 600px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    position:absolute;
+    top:85%;
+    left:27%;
+    background-color: #643b09;
+    box-shadow: 2px 2px 2px #000;
+}
+
+.erros {
+        border:1px solid #000;
+        width:31px;
+        height: 35px;
+        margin:5px;
+        background-color: #c5b5a1;
+        display:none;
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 30px;
+        justify-content: center;
+        text-align: center;
+    }
+
+div > img {
+    position: absolute;
+    top: 17%;
+    left: 41%;
+}
+
+#part0{
+    position: absolute;
+    top: 32%;
+    left: 50%;
+    width: 60px;
+    visibility: hidden;
+}
+
+#part1{
+    width: 60px;
+    top: 34%;
+    left: 53%;
+    visibility: hidden;
+}
+
+#part2{
+    width: 24px;
+    left: 56.5%;
+    top: 35.5%;
+    visibility: hidden;
+}
+
+#part3{
+    top: 39.5%;
+    width: 13px;
+    left: 52.5%;
+    visibility: hidden;
+}
+
+#part4{
+    width: 38px;
+    top: 56%;
+    left: 54.5%;
+    visibility: hidden;
+}
+
+#part5{
+    width: 30px;
+    top: 53%;
+    left: 53%;
+    visibility: hidden;
+}
+
+#dv_btns{
+    width: 162px;
+    height: 285px;
+    border: 1px dashed #590219;
+    background-color: #038C65;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#dv_btns > label{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    color:#fff;
+
+}
+#caracter {
+    width: 15px;
+}
+
+#palavra{
+    width:75px;
+}
+
+.button{
+    background-color: burlywood;
+}
+
+#teste{
+    position: absolute;
+    top: 50%;
+}
